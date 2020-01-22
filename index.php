@@ -17,7 +17,7 @@
     				<span class="navbar-toggler-icon"></span>
     			</button>
 			<div class="collapse navbar-collapse" id="barreNav">
-				<ul class="navbar-nav">
+				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active">
 						<a class="nav-link" href="index.php">Accueil</a>
 					</li>
