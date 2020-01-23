@@ -1,0 +1,23 @@
+/* css page équipe */
+#body{
+	background-color: #000000;
+}
+header{
+	height: 65vh;
+	background: linear-gradient(to top right, #2dc787a8, #11217a85);
+}
+#image{
+	margin-left: 38%;
+}
+#footer{
+	height: 10vh;
+	background-color: #373737;
+}
+#logoFaceBook{
+	font-size: 1.5em;
+	color: dodgerblue;
+}
+#logoTwitter{
+	font-size: 1.5em;
+	color: #00acee;
+}
