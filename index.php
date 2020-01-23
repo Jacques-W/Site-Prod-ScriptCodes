@@ -25,9 +25,6 @@
 						<a class="nav-link disabled" href="services.php">Nos Services</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link disabled" href="tarif.php">Nos Tarifs</a>
-					</li>
-					<li class="nav-item">
 						<a class="nav-link disabled" href="productions.php">Nos productions</a>
 					</li>
 					<li class="nav-item">
