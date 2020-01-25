@@ -23,15 +23,21 @@
   					</button>
 			<div class="collapse navbar-collapse" id="barreNavigation">
 				<ul class="navbar-nav">
-  					<li class="nav-item active">
-    					<a class="nav-link" href="#">Accueil Staff</a>
-  					</li>
-  					<li class="nav-item active">
-  						<a class="nav-link" href="todo.php">Liste des Choses &agrave; faire</a>
-  					</li>
-  					<li class="nav-item">
-  						<a class="nav-link disabled" href="staff.html">Le Staff</a>
-  					</li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.php">Accueil</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="servives.php">Nos Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="productions.php">Nos Productions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="propos.php">A propos de Nous</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="equipe.php">Notre équipe</a>
+                    </li>
                 </ul>
               </div>
             </nav>
