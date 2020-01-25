@@ -46,14 +46,14 @@
                     <div class="col-md-12 text-center text-light">
                         <p>© copyright 2020 - Tous droits réservés à ScriptCodes - Propulsé par ScriptCodes</p>
                     </div>
-                    <div class="col-md-4 text-light">
-                        <p><span id="logoFaceBook"><i class="fab fa-facebook"></i></span><a class="https://facebook.com/SciCodes-106267850925400/" target="_blank"> ScriptCodes</a></p>
+                    <div class="col-md-4">
+                        <p><span id="logoFaceBook"><i class="fab fa-facebook"></i></span><a href="https://facebook.com/SciCodes-106267850925400/" target="_blank"> ScriptCodes</a></p>
                     </div>
-                    <div class="col-md-4 text-light">
-                        <p><span id="logoFaceBook"><i class="fab fa-twitter"></i></span><a href="https://twitter.com/ScriCodes" target="_blank"> ScriptCodes</a></p>
+                    <div class="col-md-4">
+                        <p><span id="logoTwitter"><i class="fab fa-twitter"></i></span><a href="https://twitter.com/ScriCodes" target="_blank"> ScriptCodes</a></p>
                     </div>
-                    <div class="col-md-4 text-light">
-                        <p><span id="logoLinkedIn"><i class="fab fab-linkedin-in"></i></span><a href="https://www.linkedin.com/in/jacques-wickersheim-69b13192" target="_blank"> ScriptCodes</a></p>
+                    <div class="col-md-4">
+                        <p><span id="logoLinkedIn"><i class="fab fa-linkedin-in"></i></span><a href="https://www.linkedin.com/in/jacques-wickersheim-69b13192" target="_blank"> ScriptCodes</a></p>
                     </div>
                 </div>
             </section>

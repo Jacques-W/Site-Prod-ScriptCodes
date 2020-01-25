@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8b82519-9a09-4869-a0a9-748e8a79be87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/fonctions_todo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/equipe.php" beforeDir="false" afterPath="$PROJECT_DIR$/equipe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/fonctions.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo.php" beforeDir="false" afterPath="$PROJECT_DIR$/todo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,20 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -34,6 +52,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1WncNrwISlzoaiLStmlaPpSVki0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -41,16 +62,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.remoteExternalTools" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -76,7 +104,11 @@
       <updated>1579788767321</updated>
       <workItem from="1579788792487" duration="273000" />
       <workItem from="1579789300743" duration="318000" />
-      <workItem from="1579789913564" duration="3931000" />
+      <workItem from="1579789913564" duration="10063000" />
+      <workItem from="1579853377078" duration="604000" />
+      <workItem from="1579869316854" duration="6883000" />
+      <workItem from="1579888361119" duration="248000" />
+      <workItem from="1579949277361" duration="355000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à Jour du CSS nettoyage de code page equipe.php plus ajout lien fb et twitter.">
       <created>1579790987056</created>
@@ -85,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579790987056</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Correction de CSS + ajout du footer (la position est normale actuellement) sur la page index.php">
+      <created>1579794577424</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579794577425</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,9 +132,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mise à Jour du CSS nettoyage de code page equipe.php plus ajout lien fb et twitter." />
-    <option name="LAST_COMMIT_MESSAGE" value="Mise à Jour du CSS nettoyage de code page equipe.php plus ajout lien fb et twitter." />
+    <MESSAGE value="Correction de CSS + ajout du footer (la position est normale actuellement) sur la page index.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction de CSS + ajout du footer (la position est normale actuellement) sur la page index.php" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="23" key="#Deployment" timestamp="1579949658877">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Deployment/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579872178259" />
+    <state x="275" y="23" key="#Deployment/0.0.1366.728@0.0.1366.728" timestamp="1579949658877" />
     <state x="293" y="29" key="#Inspections" timestamp="1579792633833">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -104,22 +149,62 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Notifications/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579790990732" />
-    <state x="184" y="0" key="CommitChangelistDialog2" timestamp="1579790979625">
+    <state x="275" y="23" key="#Servers" timestamp="1579809676989">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579790979625" />
-    <state x="186" y="10" key="SettingsEditor" timestamp="1579792131171">
+    <state x="275" y="23" key="#Servers/0.0.1366.728@0.0.1366.728" timestamp="1579809676989" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579873034656">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579873034656" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1579813690025" />
+    <state x="323" y="131" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1579872386469">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="323" y="131" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579872386469" />
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1579875262072">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579875262072" />
+    <state x="184" y="0" key="CommitChangelistDialog2" timestamp="1579794571849">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579794571849" />
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1579888543191">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579888543191" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1579873055549">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579873055549" />
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1579813701773" />
+    <state x="518" y="288" key="NewPhpFileDialog" timestamp="1579872447690">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="518" y="288" key="NewPhpFileDialog/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579872447690" />
+    <state x="518" y="288" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1579813004418" />
+    <state x="186" y="10" key="SettingsEditor" timestamp="1579810812614">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579792131171" />
+    <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579810812614" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1579790814401">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579790814401" />
+    <state x="545" y="263" key="WebDeployment.AddServerDialog.v.1" timestamp="1579872002335">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="545" y="263" key="WebDeployment.AddServerDialog.v.1/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579872002335" />
     <state x="390" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1579788792530">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="390" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579788792530" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579949692328">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1579949692328" />
     <state x="1358" y="-513" width="607" height="714" maximized="true" key="dock-window-1" timestamp="1579793638501">
       <screen x="1366" y="-505" width="1920" height="1040" />
     </state>
@@ -128,5 +213,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="320" y="265" key="git4idea.ui.GitStashDialog/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579790832570" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1579880387854">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579880387853" />
   </component>
 </project>
