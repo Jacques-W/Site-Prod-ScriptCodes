@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
-	<!-- Ajouter ligne 7 le css personnalisé -->
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -24,8 +22,8 @@
     					<li class="nav-item active">
     						<a class="nav-link" href="index.php">Accueil</a>
     					</li>
-    					<li class="nav-item">
-    						<a class="nav-link disabled" href="services.php">Nos Services</a>
+    					<li class="nav-item active">
+    						<a class="nav-link" href="services.php">Nos Services</a>
     					</li>
     					<li class="nav-item">
     						<a class="nav-link disabled" href="productions.php">Nos productions</a>
@@ -40,7 +38,6 @@
     			</div>
     		</nav>
     	</header>
-    	<!-- Pour les CSS perso, utiliser id="" et non pas class="" -->
     	<section class="container-fluid text-center">
     		<section class="container">
     			<div class="row">
