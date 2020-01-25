@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<?php include 'includes/functions.php'; ?>
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -44,7 +45,7 @@
             <div class="col-md-12 py-5">
                 <h1>Nos Services ainsi que la grille Tarifaire</h1>
             </div>
-            <table class="table table-dark">
+            <table class="table table-dark text-light">
                 <thead>
                     <tr>
                         <th>Type de Service</th>
@@ -53,11 +54,18 @@
                     </tr>
                 </thead>
                 <tbody>
+                <?php
+                    $requeteAffichageService = $db->query('select * from services');
+                    while ($affichageService = $requeteAffichageService->fetch()) {
+                ?>
                     <tr>
-                        <td>Service</td>
-                        <td>Prestation</td>
-                        <td>Prix</td>
+                        <td><?php echo $affichageService['service'] ?></td>
+                        <td><?php echo $affichageService['prestation'] ?></td>
+                        <td><?php echo $affichageService['prix'] ?></td>
                     </tr>
+                <?php
+                    }
+                ?>
                 </tbody>
             </table>
         </div>

@@ -1,5 +1,5 @@
 <?php
-    include 'includes/fonctions_todo.php';
+    include 'includes/functions.php';
 ?>
 
 <!DOCTYPE html>
@@ -53,22 +53,22 @@
                 <h5>Formulaire</h5>
                     <form method="post">
                         <label>Nom</label>
-                        <input class="form-control" type="text" name="nomAuteur">
+                            <input class="form-control" type="text" name="nomAuteur">
                         <label>Prénom</label>
-                        <input class="form-control" type="text" name="prenomAuteur">
+                            <input class="form-control" type="text" name="prenomAuteur">
                         <label>Client</label>
-                        <input class="form-control" type="text" name="client">
+                            <input class="form-control" type="text" name="client">
                         <label>Travail à effectuer</label>
-                        <input class="form-control" type="text" name="travailAFaire">
+                            <input class="form-control" type="text" name="travailAFaire">
                         <label>Date de création de la tâche</label>
-                        <input class="form-control" type="text" name="dateTache">
+                            <input class="form-control" type="text" name="dateTache" placeholder="jj-mm-aa">
                         <label>Priorité de la Tâche</label>
-                        <select class="form-control" name="prioriteTache">
-                            <option class="disabled">Selectionner la priorité</option>
-                            <option>Basse</option>
-                            <option>Moyenne</option>
-                            <option>Haute</option>
-                        </select>
+                            <select class="form-control" name="prioriteTache">
+                                <option class="disabled">Selectionner la priorité</option>
+                                <option>Basse</option>
+                                <option>Moyenne</option>
+                                <option>Haute</option>
+                            </select>
                         <button type="submit" class="btn btn-success mt-2">Valider</button>
                     </form>
             </div>

@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8b82519-9a09-4869-a0a9-748e8a79be87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/fonctions_todo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/equipe.php" beforeDir="false" afterPath="$PROJECT_DIR$/equipe.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/fonctions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin_service.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin_service.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/fonctions_todo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/services.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo.php" beforeDir="false" afterPath="$PROJECT_DIR$/todo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +105,7 @@
       <workItem from="1579853377078" duration="604000" />
       <workItem from="1579869316854" duration="6883000" />
       <workItem from="1579888361119" duration="248000" />
-      <workItem from="1579949277361" duration="355000" />
+      <workItem from="1579949277361" duration="5304000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à Jour du CSS nettoyage de code page equipe.php plus ajout lien fb et twitter.">
       <created>1579790987056</created>
@@ -124,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579794577425</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Correction de bug sur la todo  + ajout gestion de la todo ( fonctions_todo.php )">
+      <created>1579949858465</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579949858465</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Correction de bug sur la todo  + ajout gestion de la todo ( fonctions_todo.php )">
+      <created>1579952865108</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579952865108</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +144,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mise à Jour du CSS nettoyage de code page equipe.php plus ajout lien fb et twitter." />
     <MESSAGE value="Correction de CSS + ajout du footer (la position est normale actuellement) sur la page index.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction de CSS + ajout du footer (la position est normale actuellement) sur la page index.php" />
+    <MESSAGE value="Correction de bug sur la todo  + ajout gestion de la todo ( fonctions_todo.php )" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction de bug sur la todo  + ajout gestion de la todo ( fonctions_todo.php )" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Deployment" timestamp="1579949658877">
@@ -166,10 +178,15 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579875262072" />
-    <state x="184" y="0" key="CommitChangelistDialog2" timestamp="1579794571849">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579954599922">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579954599922" />
+    <state x="184" y="0" key="CommitChangelistDialog2" timestamp="1579952859617">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579794571849" />
+    <state x="184" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579952859617" />
     <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1579888543191">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -179,11 +196,11 @@
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579873055549" />
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1579813701773" />
-    <state x="518" y="288" key="NewPhpFileDialog" timestamp="1579872447690">
+    <state x="584" y="359" key="NewPhpFileDialog" timestamp="1579954569265">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="518" y="288" key="NewPhpFileDialog/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579872447690" />
-    <state x="518" y="288" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1579813004418" />
+    <state x="584" y="359" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1579954569265" />
     <state x="186" y="10" key="SettingsEditor" timestamp="1579810812614">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
