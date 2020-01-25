@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8b82519-9a09-4869-a0a9-748e8a79be87" name="Default Changelist" comment="Ajout page services.php + changement gestion php">
-      <change afterPath="$PROJECT_DIR$/base_donnee_client.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/equipe.php" beforeDir="false" afterPath="$PROJECT_DIR$/equipe.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/fonctions.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/fonctions_todo.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/functions.php" afterDir="false" />
@@ -105,7 +103,7 @@
       <workItem from="1579853377078" duration="604000" />
       <workItem from="1579869316854" duration="6883000" />
       <workItem from="1579888361119" duration="248000" />
-      <workItem from="1579949277361" duration="9471000" />
+      <workItem from="1579949277361" duration="9650000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à Jour du CSS nettoyage de code page equipe.php plus ajout lien fb et twitter.">
       <created>1579790987056</created>
@@ -142,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579956276615</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Modif Host DB + création partielle base de donnée client">
+      <created>1579966080646</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579966080677</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +158,8 @@
     <MESSAGE value="Correction de CSS + ajout du footer (la position est normale actuellement) sur la page index.php" />
     <MESSAGE value="Correction de bug sur la todo  + ajout gestion de la todo ( fonctions_todo.php )" />
     <MESSAGE value="Ajout page services.php + changement gestion php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout page services.php + changement gestion php" />
+    <MESSAGE value="Modif Host DB + création partielle base de donnée client" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modif Host DB + création partielle base de donnée client" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Deployment" timestamp="1579965206525">
@@ -190,11 +196,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579954599922" />
-    <state x="184" y="0" key="CommitChangelistDialog2" timestamp="1579956662910">
+    <state x="184" y="0" key="CommitChangelistDialog2" timestamp="1579966157547">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579794571849" />
-    <state x="184" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579956662910" />
+    <state x="184" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579966157547" />
     <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1579888543191">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -222,11 +228,11 @@
     </state>
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579792131171" />
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579810812614" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1579965951683">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1579966086690">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579790814401" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579965951683" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579966086690" />
     <state x="545" y="263" key="WebDeployment.AddServerDialog.v.1" timestamp="1579872002335">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

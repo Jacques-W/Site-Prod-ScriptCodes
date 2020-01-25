@@ -1,6 +1,6 @@
 <?php
 // Pas Touche //
-$db = new PDO('mysql:host=intranetcg2805.mysql.db;dbname= 	intranetcg2805;charset=utf8', ' 	intranetcg2805', 'Tango2267');
+$db = new PDO('mysql:host=intranetcg2805.mysql.db;dbname= 	intranetcg2805;charset=utf8', 'intranetcg2805', 'Tango2267');
 
 $erreurMessage = '';
 $message = '';
