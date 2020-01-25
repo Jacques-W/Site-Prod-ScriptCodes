@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* CSS GLOBAL */
 body{
 	background-color: #000000;
@@ -29,4 +30,37 @@ footer{
 /* CSS PAGE EQUIPE */
 #image{
 	margin-left: 38%;
+=======
+/* CSS GLOBAL */
+body{
+	background-color: #000000;
+}
+header{
+	height: 65vh;
+	background: linear-gradient(to top right, #2dc787a8, #11217a85);
+}
+footer{
+	height: 10vh;
+	background-color: #373737;
+}
+#logoFaceBook{
+	font-size: 1em;
+	color: dodgerblue;
+	margin-bottom: 10px;
+}
+#logoTwitter{
+	font-size: 1em;
+	color: #00acee;
+	margin-bottom: 10px;
+}
+#logoLinkedIn{
+	font-size: 1em;
+	color: #0e76a8;
+	margin-bottom: 10px;
+}
+/* FIN CSS GLOBAL */
+/* CSS PAGE EQUIPE */
+#image{
+	margin-left: 38%;
+>>>>>>> origin/master
 }
