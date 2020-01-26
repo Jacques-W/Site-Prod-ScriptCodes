@@ -1,7 +1,11 @@
 <?php
 // Pas Touche //
-$db = new PDO('mysql:host=intranetcg2805.mysql.db;dbname=intranetcg2805;charset=utf8', 'intranetcg2805', 'Tango2267');
-﻿
+
+// $db = new PDO('mysql:host=intranetcg2805.mysql.db;dbname=intranetcg2805;charset=utf8', 'intranetcg2805', 'Tango2267');
+// ﻿
+// =======
+// $db = new PDO('mysql:host=184.154.73.118;dbname=pfpwebho_scriptcodes;charset=utf8', 'pfpwebho_ScriptCodes', '(.uUTCU6&~CB');
+// >>>>>>> 02fac57d0987324d58c56c6916bdcbc02734cac9
 
 $erreurMessage = '';
 $message = '';
