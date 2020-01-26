@@ -1,7 +1,7 @@
 <footer class="container-fluid">
     <div class="row pt-5 mb-5">
         <div class="col-4 border-dark border-right border-left">
-            <p class="text-center">Retrouvez nous ici</p>
+            <p class="text-center">Suivez nous</p>
             <div class="row d-flex justify-content-center">
                 <div class="col-md-1">
                     <a href="https://facebook.com/SciCodes-106267850925400/" target="_blank"><span id="logoFaceBook"><i class="fab fa-facebook"></i></span></a>
@@ -16,7 +16,7 @@
         </div>
         <div class="col-4 text-center border-dark border-right">
             <p>Coordonnées</p>
-            <a href=""><i class="fas fa-map-marker-alt"></i></a><span>1 place Homme de fer, 67000 Strasbourg</span>
+            <a href=""><i class="fas fa-map-marker-alt"></i></a><span> 1 place de l'Homme de fer, 67000 Strasbourg</span>
         </div>
         <div class="col-4 text-center">
             <p><a href="#">Mentions légales</a></p>
