@@ -1,66 +1,70 @@
-<<<<<<< HEAD
 /* CSS GLOBAL */
 body{
-	background-color: #000000;
+	background: white;
+	font-family: 'Antic Slab', serif;
 }
 header{
-	height: 65vh;
-	background: linear-gradient(to top right, #2dc787a8, #11217a85);
+	height: 35vh;
+	background: white;
 }
 footer{
-	height: 10vh;
-	background-color: #373737;
+	color: black;
+	background: rgba(223, 213, 213,0.4);
+	padding-bottom: 5px;
+}
+h1
+{
+	font-family: 'Julius Sans One', sans-serif;
+}
+.banniere
+{
+	width:100%;
 }
 #logoFaceBook{
 	font-size: 1em;
 	color: dodgerblue;
-	margin-bottom: 10px;
 }
 #logoTwitter{
 	font-size: 1em;
 	color: #00acee;
-	margin-bottom: 10px;
 }
 #logoLinkedIn{
 	font-size: 1em;
 	color: #0e76a8;
-	margin-bottom: 10px;
 }
 /* FIN CSS GLOBAL */
 /* CSS PAGE EQUIPE */
-#image{
-	margin-left: 38%;
-=======
-/* CSS GLOBAL */
-body{
-	background-color: #000000;
+.full:hover
+{   -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
 }
-header{
-	height: 65vh;
-	background: linear-gradient(to top right, #2dc787a8, #11217a85);
+.equipe
+{
+	background: rgba(231, 69, 19, 0.9);
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
-footer{
-	height: 10vh;
-	background-color: #373737;
+.equipeh1, .form-control, .btn
+{
+	font-family: 'Antic Slab', serif;
 }
-#logoFaceBook{
-	font-size: 1em;
-	color: dodgerblue;
-	margin-bottom: 10px;
+#Description
+{
+	color:black;
+	background: url('../images/FauxelsPexels.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
 }
-#logoTwitter{
-	font-size: 1em;
-	color: #00acee;
-	margin-bottom: 10px;
+.btn
+{
+	background: rgba(231, 69, 19, 0.9);
 }
-#logoLinkedIn{
-	font-size: 1em;
-	color: #0e76a8;
-	margin-bottom: 10px;
-}
-/* FIN CSS GLOBAL */
-/* CSS PAGE EQUIPE */
-#image{
-	margin-left: 38%;
->>>>>>> origin/master
+.presentation
+{
+	font-family: 'Antic Slab', serif;
 }
