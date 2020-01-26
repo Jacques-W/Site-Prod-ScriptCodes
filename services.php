@@ -21,7 +21,7 @@
         <div class="collapse navbar-collapse" id="barreNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.php">Accueil</a>
+                    <a class="nav-link" href="https://scricodes.com">Accueil</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="services.php">Nos Services</a>
