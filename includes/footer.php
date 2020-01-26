@@ -1,32 +1,31 @@
-<footer>
-    <section class="container text-center py-3">
-        <div class="row">
-            <div class="col-md-4 text-center text-light">
-                <p>Contact</p>
-            </div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4 text-center text-light">
-                <p>Mentions légales</p>
-            </div>
-        <div class="col-4">
-        <div class="row">
-            <div class="col-md-4">
-                <p><span id="logoFaceBook" class="text-light"><i class="fab fa-facebook"></i></span><a href="https://facebook.com/SciCodes-106267850925400/" target="_blank"> ScriptCodes</a></p>
-            </div>
-            <div class="col-md-4">
-                <p><span id="logoTwitter" class="text-light"><i class="fab fa-twitter"></i></span><a href="https://twitter.com/ScriCodes" target="_blank"> ScriptCodes</a></p>
-            </div>
-            <div class="col-md-4">
-                <p><span id="logoLinkedIn" class="text-light"><i class="fab fa-linkedin-in"></i></span><a href="https://www.linkedin.com/in/jacques-wickersheim-69b13192" target="_blank"> ScriptCodes</a></p>
+<footer class="container-fluid">
+    <div class="row pt-5 my-5">
+        <div class="col-4 border-dark border-right border-left">
+            <p class="text-center">Retrouvez nous ici</p>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-1">
+                    <a href="https://facebook.com/SciCodes-106267850925400/" target="_blank"><span id="logoFaceBook"><i class="fab fa-facebook"></i></span></a>
+                </div>
+                <div class="col-md-1">
+                    <a href="https://twitter.com/ScriCodes" target="_blank"><span id="logoTwitter"><i class="fab fa-twitter"></i></span></a>
+                </div>
+                <div class="col-md-1">
+                    <a href="https://www.linkedin.com/in/jacques-wickersheim-69b13192" target="_blank"><span id="logoLinkedIn"><i class="fab fa-linkedin-in"></i></span></a>
+                </div>
             </div>
         </div>
-        <div class="col-4"></div>
-        <div class="col-4"></div>
+        <div class="col-4 text-center border-dark border-right">
+            <p>Coordonnées</p>
+            <a href=""><i class="fas fa-map-marker-alt"></i></a><span> 13 rue du Onchercheencore, 67000 Strasbourg</span>
         </div>
-        <div class="col-md-12 text-center text-light">
-                <p>© Copyright 2020 - Tous droits réservés à ScriptCodes - Propulsé par ScriptCodes</p>
-            </div>
+        <div class="col-4 text-center">
+            <p><a href="#">Mentions légales</a></p>
+            <p><a href="#">Politique de confidentialité</a></p>
         </div>
-    </section>
-</footer>
+    </div>
+    <div class="col-md-12 text-center mb-3">
+        <p>© Copyright 2020 - Tous droits réservés à ScriptCodes - Propulsé par ScriptCodes</p>
+    </div>
+    </footer>
+</html>
+</body>

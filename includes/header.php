@@ -1,6 +1,6 @@
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="index.php">ScriptCodes</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.php"><img src="images/logo.png" width="25%" alt=""></a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#barreNav" aria-expanded="false">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,4 +24,11 @@
             </ul>
         </div>
     </nav>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-12 pt-5">
+                <h1 width="30%" class="title text-center">SCRIPT CODES</h1>
+            </div>
+        </div>
+    </section>
 </header>
