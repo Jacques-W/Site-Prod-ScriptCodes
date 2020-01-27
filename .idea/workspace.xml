@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8b82519-9a09-4869-a0a9-748e8a79be87" name="Default Changelist" comment="Ajout page services.php + changement gestion php">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_base_client.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/FauxelsPexels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/FauxelsPexels2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/NegativeSpacePexels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/PixaBayPexels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/TirachardKumtanomPexels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/st.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/fonctions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/fonctions_todo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_donnee_client.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/functions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +47,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -57,7 +67,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;mariadb" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -75,12 +85,32 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Simone&amp;Louis\Desktop\Developpement Web\Intranet Gestion Projet ScriptCode\WebContent\includes" />
+      <recent name="C:\Users\Simone&amp;Louis\Desktop\Developpement Web\Intranet Gestion Projet ScriptCode\WebContent\css" />
+      <recent name="C:\Users\Simone&amp;Louis\Desktop\Developpement Web\Intranet Gestion Projet ScriptCode\WebContent\images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Simone&amp;Louis\Desktop\Developpement Web\Intranet Gestion Projet ScriptCode\WebContent\images" />
+    </key>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@51c3a740" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -103,7 +133,12 @@
       <workItem from="1579853377078" duration="604000" />
       <workItem from="1579869316854" duration="6883000" />
       <workItem from="1579888361119" duration="248000" />
-      <workItem from="1579949277361" duration="9650000" />
+      <workItem from="1579949277361" duration="13750000" />
+      <workItem from="1580071793508" duration="3656000" />
+      <workItem from="1580111609725" duration="816000" />
+      <workItem from="1580134618019" duration="2015000" />
+      <workItem from="1580151764434" duration="4738000" />
+      <workItem from="1580160605038" duration="208000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à Jour du CSS nettoyage de code page equipe.php plus ajout lien fb et twitter.">
       <created>1579790987056</created>
@@ -147,7 +182,49 @@
       <option name="project" value="LOCAL" />
       <updated>1579966080677</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ajout page services.php + changement gestion php">
+      <created>1579966192404</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579966192404</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Correction des bug d'affichage">
+      <created>1579966816677</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1579966816677</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Mise à jour des lien sur la navbar + connexion a la bonne Data Base">
+      <created>1580052972973</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580052972973</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Ajout d'un membre de l'équipe">
+      <created>1580073090585</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1580073090585</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Mise à jour changements + nettoyage du Repo! CTO">
+      <created>1580074589914</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1580074589914</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Ne pas mettre de ../ au href sous risque de faire des conflits avec le site une fois en ligne">
+      <created>1580075484266</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1580075484266</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,9 +234,14 @@
     <MESSAGE value="Mise à Jour du CSS nettoyage de code page equipe.php plus ajout lien fb et twitter." />
     <MESSAGE value="Correction de CSS + ajout du footer (la position est normale actuellement) sur la page index.php" />
     <MESSAGE value="Correction de bug sur la todo  + ajout gestion de la todo ( fonctions_todo.php )" />
-    <MESSAGE value="Ajout page services.php + changement gestion php" />
     <MESSAGE value="Modif Host DB + création partielle base de donnée client" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modif Host DB + création partielle base de donnée client" />
+    <MESSAGE value="Ajout page services.php + changement gestion php" />
+    <MESSAGE value="Correction des bug d'affichage" />
+    <MESSAGE value="Mise à jour des lien sur la navbar + connexion a la bonne Data Base" />
+    <MESSAGE value="Ajout d'un membre de l'équipe" />
+    <MESSAGE value="Mise à jour changements + nettoyage du Repo! CTO" />
+    <MESSAGE value="Ne pas mettre de ../ au href sous risque de faire des conflits avec le site une fois en ligne" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ne pas mettre de ../ au href sous risque de faire des conflits avec le site une fois en ligne" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Deployment" timestamp="1579965206525">
@@ -179,11 +261,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Servers/0.0.1366.728@0.0.1366.728" timestamp="1579809676989" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579873034656">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579983445425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579873034656" />
-    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1579813690025" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1579983445425" />
     <state x="323" y="131" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1579872386469">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -196,43 +278,44 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579954599922" />
-    <state x="184" y="0" key="CommitChangelistDialog2" timestamp="1579966157547">
+    <state x="184" y="0" key="CommitChangelistDialog2" timestamp="1580160751022">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579794571849" />
-    <state x="184" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579966157547" />
-    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1579888543191">
+    <state x="184" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580160751022" />
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1580136702620">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1580136702620" />
     <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579888543191" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1579873055549">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579873055549" />
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1579813701773" />
-    <state x="129" y="60" key="MergeDialog" timestamp="1579956564983">
+    <state x="129" y="60" key="MergeDialog" timestamp="1580074851447">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="129" y="60" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1579956564983" />
-    <state x="395" y="80" key="MultipleFileMergeDialog" timestamp="1579956585049">
+    <state x="129" y="60" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1580074851447" />
+    <state x="395" y="80" key="MultipleFileMergeDialog" timestamp="1580074851463">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="395" y="80" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1579956585049" />
-    <state x="584" y="359" key="NewPhpFileDialog" timestamp="1579962294762">
+    <state x="395" y="80" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1580074851463" />
+    <state x="518" y="288" key="NewPhpFileDialog" timestamp="1580134728558">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="518" y="288" key="NewPhpFileDialog/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579872447690" />
+    <state x="518" y="288" key="NewPhpFileDialog/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1580134728558" />
     <state x="584" y="359" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1579962294762" />
     <state x="186" y="10" key="SettingsEditor" timestamp="1579810812614">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579792131171" />
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579810812614" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1579966086690">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1580160847139">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579790814401" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579966086690" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580160847139" />
     <state x="545" y="263" key="WebDeployment.AddServerDialog.v.1" timestamp="1579872002335">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -241,21 +324,33 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="390" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579788792530" />
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579949692328">
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580074019927">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1579949692328" />
-    <state x="1358" y="-513" width="607" height="714" maximized="true" key="dock-window-1" timestamp="1579793638501">
-      <screen x="1366" y="-505" width="1920" height="1040" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1580074019927" />
+    <state x="1818" y="-93" width="565" height="714" maximized="true" key="dock-window-1" timestamp="1580151781020">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="1358" y="-513" width="607" height="714" maximized="true" key="dock-window-1/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579793638501" />
+    <state x="1818" y="-93" width="565" height="714" maximized="true" key="dock-window-1/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1580135023018" />
+    <state x="310" y="156" key="git4idea.merge.GitPullDialog" timestamp="1580072226697">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="310" y="156" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1580072226697" />
     <state x="320" y="265" key="git4idea.ui.GitStashDialog" timestamp="1579790832570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="320" y="265" key="git4idea.ui.GitStashDialog/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579790832570" />
+    <state x="553" y="258" key="publish.login" timestamp="1580072456624">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="553" y="258" key="publish.login/0.0.1366.728@0.0.1366.728" timestamp="1580072456624" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1579880387854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579880387853" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580135317540">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1580135317540" />
   </component>
 </project>
