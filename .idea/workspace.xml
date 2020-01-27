@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8b82519-9a09-4869-a0a9-748e8a79be87" name="Default Changelist" comment="Ajout page services.php + changement gestion php">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin_base_client.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/FauxelsPexels.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/FauxelsPexels2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/NegativeSpacePexels.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/PixaBayPexels.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/TirachardKumtanomPexels.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/st.png" afterDir="false" />
+    <list default="true" id="e8b82519-9a09-4869-a0a9-748e8a79be87" name="Default Changelist" comment="Nettoyage de Git ne pas pull!!! supprimez d'abboord vos fichiers, puis faites un git clone https://github.com/Jacques-W/Site-ScriptCodes.git">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_donnee_client.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/equipe.php" beforeDir="false" afterPath="$PROJECT_DIR$/equipe.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +36,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -66,6 +55,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql&#10;mariadb" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -138,7 +128,7 @@
       <workItem from="1580111609725" duration="816000" />
       <workItem from="1580134618019" duration="2015000" />
       <workItem from="1580151764434" duration="4738000" />
-      <workItem from="1580160605038" duration="208000" />
+      <workItem from="1580160605038" duration="987000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à Jour du CSS nettoyage de code page equipe.php plus ajout lien fb et twitter.">
       <created>1579790987056</created>
@@ -224,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580075484266</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Nettoyage de Git ne pas pull!!! supprimez d'abboord vos fichiers, puis faites un git clone https://github.com/Jacques-W/Site-ScriptCodes.git">
+      <created>1580160976558</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1580160976558</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +238,8 @@
     <MESSAGE value="Ajout d'un membre de l'équipe" />
     <MESSAGE value="Mise à jour changements + nettoyage du Repo! CTO" />
     <MESSAGE value="Ne pas mettre de ../ au href sous risque de faire des conflits avec le site une fois en ligne" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ne pas mettre de ../ au href sous risque de faire des conflits avec le site une fois en ligne" />
+    <MESSAGE value="Nettoyage de Git ne pas pull!!! supprimez d'abboord vos fichiers, puis faites un git clone https://github.com/Jacques-W/Site-ScriptCodes.git" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nettoyage de Git ne pas pull!!! supprimez d'abboord vos fichiers, puis faites un git clone https://github.com/Jacques-W/Site-ScriptCodes.git" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Deployment" timestamp="1579965206525">
@@ -278,11 +276,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579954599922" />
-    <state x="184" y="0" key="CommitChangelistDialog2" timestamp="1580160751022">
+    <state x="12" y="0" key="CommitChangelistDialog2" timestamp="1580161479941">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579794571849" />
-    <state x="184" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580160751022" />
+    <state x="12" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580161479941" />
     <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1580136702620">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -297,10 +295,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="129" y="60" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1580074851447" />
-    <state x="395" y="80" key="MultipleFileMergeDialog" timestamp="1580074851463">
+    <state x="395" y="80" key="MultipleFileMergeDialog" timestamp="1580161236061">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="395" y="80" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1580074851463" />
+    <state x="395" y="80" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1580161236061" />
     <state x="518" y="288" key="NewPhpFileDialog" timestamp="1580134728558">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -311,11 +309,11 @@
     </state>
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579792131171" />
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579810812614" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1580160847139">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1580161846012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579790814401" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580160847139" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580161846012" />
     <state x="545" y="263" key="WebDeployment.AddServerDialog.v.1" timestamp="1579872002335">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
