@@ -30,6 +30,10 @@ require_once ('includes/header.php');?>
 				<img class="full" width="10%" src="images/faycal.jpg" alt="Fayçal">
   				<img class="full" width="10%" src="images/lyroi.jpg" alt="Lyroi">
 				<img class="full" width="10%" src="images/benoit.jpg" alt="Benoit">
+<<<<<<< HEAD
+=======
+                <img class="full" width="10%" src="images/rodolphe.jpg" alt="Rodolphe">
+>>>>>>> 137e177c1ddca958329d4fff0325e4895d01c4a7
 				<img class="full mr-5" width="10%" src="images/nathaelle.jpg" alt="Nathaelle">
 			</div>
 		</div>

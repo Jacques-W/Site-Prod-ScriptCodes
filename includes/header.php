@@ -1,6 +1,10 @@
 <header>
     <nav class="navbar navbar-expand-lg navbar-light">
+<<<<<<< HEAD
         <a class="navbar-brand" href="index.php"><img src="images/logo.png" width="25%" alt=""></a>
+=======
+        <a class="navbar-brand" href="../index.php"><img src="images/logo.png" width="25%" alt=""></a>
+>>>>>>> 137e177c1ddca958329d4fff0325e4895d01c4a7
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#barreNav" aria-expanded="false">
             <span class="navbar-toggler-icon"></span>
         </button>
