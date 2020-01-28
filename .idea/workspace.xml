@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e8b82519-9a09-4869-a0a9-748e8a79be87" name="Default Changelist" comment="Nettoyage de Git ne pas pull!!! supprimez d'abboord vos fichiers, puis faites un git clone https://github.com/Jacques-W/Site-ScriptCodes.git">
+    <list default="true" id="e8b82519-9a09-4869-a0a9-748e8a79be87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/galerie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/4eva.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Aloe4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Bahamas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/DredGeibPexels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/JeanVanDerMeulenPexels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/PietBakkerPexels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/blood.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/citation1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/citation2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/citation3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/dad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/dad1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/dad2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/dl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/fit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/plant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/propos.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/equipe.php" beforeDir="false" afterPath="$PROJECT_DIR$/equipe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +153,8 @@
       <workItem from="1580134618019" duration="2015000" />
       <workItem from="1580151764434" duration="4738000" />
       <workItem from="1580160605038" duration="987000" />
+      <workItem from="1580198564465" duration="991000" />
+      <workItem from="1580205945365" duration="199000" />
     </task>
     <task id="LOCAL-00001" summary="Mise à Jour du CSS nettoyage de code page equipe.php plus ajout lien fb et twitter.">
       <created>1579790987056</created>
@@ -281,10 +307,10 @@
     </state>
     <state x="184" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579794571849" />
     <state x="12" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1580161479941" />
-    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1580136702620">
+    <state x="462" y="106" key="FileChooserDialogImpl" timestamp="1580199539986">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1580136702620" />
+    <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1580199539986" />
     <state x="462" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579888543191" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1579873055549">
       <screen x="0" y="0" width="1366" height="728" />
@@ -309,10 +335,10 @@
     </state>
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579792131171" />
     <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579810812614" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1580161846012">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1580206241664">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1579790814401" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-505.1920.1040@0.0.1366.728" timestamp="1580206241664" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1580161846012" />
     <state x="545" y="263" key="WebDeployment.AddServerDialog.v.1" timestamp="1579872002335">
       <screen x="0" y="0" width="1366" height="728" />

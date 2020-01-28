@@ -16,7 +16,13 @@
                     <a class="nav-link disabled" href="productions.php">Nos Productions</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="propos.php">A Propos de Nous</a>
+                    <a class="nav-link disabled" href="contact.php">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="propos.php">A Propos</a>
+                </li>
+                <li class="nav-iem active">
+                    <a class="nav-link" href="galerie.php">Galerie</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="equipe.php">Notre Equipe</a>
